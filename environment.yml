@@ -1,0 +1,13 @@
+name: domain_adaptation
+channels:
+  - conda-forge
+  - pytorch
+  - numba
+  - defaults
+dependencies:
+  - python
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+    - -r requirements.txt

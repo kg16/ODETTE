@@ -5,8 +5,8 @@ import math
 import xml.etree.ElementTree as ET
 from nltk import sent_tokenize, word_tokenize
 
-root_dir = "../timebank_1_2/data/timeml/"
-out_dir = "../processed_timebank/"
+root_dir = "/data/hulab/kgoyal6/odette/ODETTE/data/target/timebank_1_2/data/timeml/"
+out_dir = "/data/hulab/kgoyal6/odette/ODETTE/data/target/processed_timebank/"
 
 all_files = []
 for file in os.listdir(root_dir):

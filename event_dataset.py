@@ -329,7 +329,8 @@ class SentenceReader:
 class Parser:
     
     def __init__(self):
-        self.pipeline = stanfordnlp.Pipeline(processors='tokenize,pos', lang='en', tokenize_pretokenized=True, models_dir="/usr0/home/anaik/installations/stanford-corenlp-full-2018-10-05/en/", treebank="en_ewt")
+        self.pipeline = stanfordnlp.Pipeline(processors='tokenize,pos', lang='en', tokenize_pretokenized=True, 
+models_dir="/data/hulab/kgoyal6/odette/stanford-corenlp-4.3.1", treebank="en_ewt")
 
     def parse_sequences(self, sequences):
         parse_outputs = []
